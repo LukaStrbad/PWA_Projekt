@@ -1,0 +1,31 @@
+table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    font-size: 12px;
+}
+
+table th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table th {
+    text-align: center;
+}
+
+table img {
+    width: 100px;
+}
+
+table td {
+    white-space: nowrap;
+    max-height: 100pt;
+    max-width: 100pt;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#users td {
+    max-width: unset;
+}

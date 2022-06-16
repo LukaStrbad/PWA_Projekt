@@ -1,0 +1,23 @@
+article {
+    background-color: white;
+    margin-top: 50pt;
+    padding: 0;
+}
+
+article .title {
+    margin: 10pt;
+    font-weight: bold;
+}
+
+article img {
+    width: 100%;
+}
+
+article .content {
+    padding: 25pt;
+}
+
+article .content span {
+    display: block;
+    margin-bottom: 20pt;
+}

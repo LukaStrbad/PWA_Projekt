@@ -1,0 +1,21 @@
+<footer id="footer">
+    <div class="container text">
+        Weitere Online-Angebote der Axel Springer SE:
+    </div>
+    <div class="container rect"></div>
+</footer>
+
+<script>
+    let contentHeight = document.body.clientHeight;
+    let footer = document.getElementById("footer");
+    let rect = footer.getElementsByClassName("rect")[0];
+    let height = window.innerHeight - contentHeight
+    if (height < 100) {
+        height = 100;
+    }
+
+    window.onresize = () => {
+        rect.style.height = height + "px";
+    };
+    window.onresize();
+</script>
