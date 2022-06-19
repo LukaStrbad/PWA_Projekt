@@ -20,8 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `projekt`
 --
-CREATE DATABASE IF NOT EXISTS `projekt` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `projekt`;
+CREATE DATABASE IF NOT EXISTS `pwa_projekt_luka_strbad` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `pwa_projekt_luka_strbad`;
 
 -- --------------------------------------------------------
 
