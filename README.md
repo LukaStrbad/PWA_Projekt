@@ -11,3 +11,4 @@
 ## Napomene
 1. U exportiranoj bazi se prikazuju samo ASCII znakovi te zbog toga neki tekstovi čudno izgledaju
 2. Default user ima username **PasswordIs12345678** i password **12345678**
+3. Ako se dogodi greška pri ulasku na stranicu **ADMINISTRACIJA** to znači da je vrijednost $_SESSION["username"] ostala zapamćena od prošle stranice. Rješenje je ponovno pokretanje web browsera.
